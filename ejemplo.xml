@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--este es documento XML para inicio de sesion-->
+<REDSTORE>
+    <inicio_sesion ingreso_al_sistema="tienda_virtual_REDSTORE">
+        <correo_electronico>correo_usuario</correo_electronico>
+        <contraseña>contraseña_usuario</contraseña>
+        <iniciar_sesion>boton_verificacion_ingreso</iniciar_sesion>
+        <olvidaste_contraseña>enlace_olvidaste_contraseña</olvidaste_contraseñ>
+        <registro_usuario_nuevo>enlace_registro_usuario_nuevo</registro_usuario_nuevo>
+    </inicio_sesion>
+</REDSTORE>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!--este es documento XML para mapa conceptual proyecto RED STORE hasta el nivel 3-->
+<REDSTORE tienda_virtual="venta__zapatos_en_line">
+    <inicio_sesion ="ingreso_al_sistema">
+        <registro_usuario>registro_usuario_nuevo</registro_usuario>
+    </inicio_sesion>
+    <menu_principal ="menu principal_app">
+        <calzado_mujeres>calzado_para_mujeres</calzado_mujeres>
+        <calzado_hombres>calzado_para_mujeres</calzado_hombres>
+        <calzado_niños>calzado_para_mujeres</calzado_niños>
+        <carrito>carrito_compras</carrito>
+        <informacion>informacion_red_store</informacion>
+        <cerrar_sesion>cerrar_sesion_usuario</cerrar_sesion>
+    </menu_principal>   
+</REDSTORE>
